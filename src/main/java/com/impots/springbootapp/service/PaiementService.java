@@ -1,2 +1,4 @@
-package com.impots.springbootapp.service;public class PaiementService {
+package com.impots.springbootapp.service;
+
+public class PaiementService {
 }

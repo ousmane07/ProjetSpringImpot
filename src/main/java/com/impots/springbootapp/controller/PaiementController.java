@@ -27,6 +27,8 @@ public class PaiementController {
     //CREATION D'UN PAIEMENT AVEC API REST
     @PostMapping
     public Paiement createPaiement (@RequestBody Paiement paiement){
+
+
         return iPaiement.save(paiement);
     }
 
